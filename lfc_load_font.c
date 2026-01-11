@@ -194,7 +194,7 @@ FONT_PROFILE* Lfc_Load_Font(const char* font_file, int size, int render_mode, UT
     unsigned int file_name_length = strlen(font_file_name);
 
     // Create memory for copy name
-    char* font_name = malloc(file_name_length);
+    char* font_name = malloc(file_name_length +1);
 
     if (font_name == NULL) {
         printf("Error :  char* font_name = malloc(file_name_length); \n");
@@ -288,9 +288,7 @@ FONT_PROFILE* Lfc_Load_Font(const char* font_file, int size, int render_mode, UT
                     }
 
                     char_data_array[i].bitmap_data[bit_index / 8] =  d_bit;
-                    if ((bit_index/8) >= bitmap_data_len) {
-                        printf("\n Memory error");
-                    }
+
                     bit_index++;
                 }
             }
