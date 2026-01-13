@@ -81,6 +81,5 @@ arial.h will be create
 |-------------|------------------------------------------|------------|-----------------------|
 |  -h  or  ?  | Show help message                        | Optional   |  -h                   |
 
-<p align="center" width="100%">
-<video src="https://www.youtube.com/embed/kiy8hUHDtfQ?si=wGdkTaGpn4vWaZG1" width="80%" controls></video>
-</p>
+<video src="https://www.youtube.com/embed/kiy8hUHDtfQ?si=wGdkTaGpn4vWaZG1"  controls></video>
+
