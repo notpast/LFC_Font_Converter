@@ -81,6 +81,6 @@ arial.h will be create
 |-------------|------------------------------------------|------------|-----------------------|
 |  -h  or  ?  | Show help message                        | Optional   |  -h                   |
 
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kiy8hUHDtfQ?si=wGdkTaGpn4vWaZG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p align="center" width="100%">
+<video src="https://www.youtube.com/embed/kiy8hUHDtfQ?si=wGdkTaGpn4vWaZG1" width="80%" controls></video>
+</p>
