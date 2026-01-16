@@ -124,8 +124,6 @@ FONT_PROFILE* Lfc_Load_Font(const char* font_file, int size, int render_mode, UT
     }
 
 
-    
-
     // Open font file
     if (FT_New_Face(ft, font_file, 0, &face))
     {
@@ -150,6 +148,9 @@ FONT_PROFILE* Lfc_Load_Font(const char* font_file, int size, int render_mode, UT
 
         if (FT_Get_Char_Index(face, utf32_char_code)) {
             render_list[valid_list_len++] = utf32_char_code;
+        }
+        else {
+            printf("MISSING CODE: 0X%x\n", utf32_char_code);
         }
     }
 
